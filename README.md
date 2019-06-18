@@ -10,3 +10,5 @@ This is a project that I wanted to do since I saw a gif of the same thing on [r/
 The gif that is in the same repository was created by recording the code while working, it's not the gif I found on [r/oddlysatisfying](https://www.reddit.com/r/oddlysatisfying/). If you found the original gif, I'll be pleased to credit the autor.
 
 The code was made and executed in [Processing](https://processing.org/), a Java based programming language.
+
+The main code can be found in the sketch_20_dots.pde
