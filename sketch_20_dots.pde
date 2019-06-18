@@ -17,8 +17,6 @@ void draw() {
   scale(1, -1);
   translate(width/2, -height/2);
   
-  // *********************************************** El punt de fora es mou més ràpid que el del centre
-  
   for(int i = 0; i < num; i++) {
     noStroke();
     fill(255,0,255);
@@ -36,28 +34,6 @@ void draw() {
       line(x[i], y[i], x[i-1], y[i-1]);
     }
   }
-  
-  // ************************************************** El punt del centre es mou més ràpid que el de fora
-  /*
-  for(int i = num-1; i == 0; i--) {
-    noStroke();
-    fill(255,0,255);
-    
-    // El punt del mig es mou més lent que el de fora
-    x[i] = 20*i*cos(((2*PI*i)/T)*(time));
-    y[i] = 20*i*sin(((2*PI*i)/T)*(time));
-    
-    
-    ellipse(x[i], y[i], 5, 5);
-    
-    if(i != 0) {
-      strokeWeight(1);
-      stroke(0);
-      line(x[i], y[i], x[i-1], y[i-1]);
-    }
-  }
-  */
-  // ***********************************************
   
   time += deltaTime;;
   popMatrix();
