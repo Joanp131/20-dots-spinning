@@ -24,7 +24,7 @@ void draw() {
     noStroke();
     fill(255,0,255);
     
-    // El punt del mig es mou més lent que el de fora
+    // The combination of two simple harmonic motions (one vertical and one horizontal) creates a circular motion
     x[i] = 20*i*cos(((2*PI*i)/T)*(time));
     y[i] = 20*i*sin(((2*PI*i)/T)*(time));
     
