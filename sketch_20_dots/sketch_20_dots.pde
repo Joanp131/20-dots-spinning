@@ -1,8 +1,8 @@
 int num = 26, draw = 0, T = 20;
 float[] x = new float[num], y = new float[num];
 boolean loop = true;
-float time = 0, deltaTime = 0.016 //This 0.016 is the time that elapses from one frame to another 
-                                  //(taking into account that this app runs at 60fps);
+float time = 0, deltaTime = 0.016; //This 0.016 is the time that elapses from one frame to another 
+                                  //(taking into account that this app runs at 60fps)
 
 void setup() {
   size(1020,1020);
